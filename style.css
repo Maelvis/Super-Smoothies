@@ -3,7 +3,7 @@
 nav {
     background-color: #F27980;
     color: white;
-    padding: 20px;
+    padding: 0.5px;
 }
 
 .nav-link {
@@ -46,5 +46,3 @@ border-width: 1px;
     text-emphasis: bold;
     opacity: 0.8;
 }
-
-
