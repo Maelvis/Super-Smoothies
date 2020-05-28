@@ -46,3 +46,18 @@ border-width: 1px;
     text-emphasis: bold;
     opacity: 0.8;
 }
+
+/* Contact Form */
+.btn {
+    font-family: 'Playfair Display', serif;
+    border: 2px solid;
+
+}
+
+.form-control {
+    font-family: 'Playfair Display', serif;
+}
+
+.label {
+    font-family: 'Playfair Display', serif;
+}
