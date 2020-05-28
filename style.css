@@ -36,6 +36,13 @@ border-width: 1px;
     color: white;
 }
 
-
-
-/* Gallery of sample smoothie recipes */
+/* Footer */
+.footer {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: #F27980;
+    font-size: 20px;
+    text-emphasis: bold;
+    opacity: 0.8;
+}
