@@ -37,13 +37,14 @@ border-width: 1px;
 }
 
 /* Footer */
-footer {
+.footer {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #F27980;
+    color: white;
+    background-color: #F27980;
     font-size: 20px;
     text-emphasis: bold;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 
