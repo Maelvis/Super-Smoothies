@@ -45,9 +45,9 @@ border-width: 1px;
 .carousel-item {
     font-family: 'Playfair Display', serif;
     height: 300px;
-    width: 1360px;
+    width: 1350px;
     color: white;
-    text-shadow: 1.5px 1.5px #000000;
+    text-shadow: 2px 2px #000000;
     
 }
 
@@ -57,15 +57,17 @@ border-width: 1px;
 }
 
 .Websiteintrocaption {
-    font-size: 30px;
+    font-size: 35px;
+    font-family: 'Arimo', sans-serif;
 }
 
 
 /* Columns for articles */
 .row {
-    width: 1360px;
+    width: 1350px;
     height: 300px;
     background-color: #fffbed;
+    font-family: 'Arimo', sans-serif;
 }
 
 #article1 {
@@ -91,6 +93,7 @@ border-width: 1px;
 }
 #Londonbody {
     font-size: 20px;
+    f
 
 }
 
@@ -124,13 +127,15 @@ border-width: 1px;
 .footer {
     text-align: center;
     font-family: 'Playfair Display', serif;
+    /* changed the font colour and background colour */
     color: #f27980;
     background-color: #f1eff1;
     font-size: 15px;
     text-emphasis: bold;
     opacity: 0.8;
+    /* adjusted the width and height */
     height: 100px;
-    width: 1360px;
+    width: 1350px;
 }
 
 #hashtag {
