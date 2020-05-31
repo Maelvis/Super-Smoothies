@@ -1,5 +1,5 @@
 
-body {
+.container {
     background-color: #fffbed;
 }
 
@@ -52,48 +52,54 @@ border-width: 1px;
 }
 
 .Websiteintro {
-    font-size: 85px;
+    font-size: 5em;
+    width: 100%;
+    height: 100%;
 
 }
 
 .Websiteintrocaption {
-    font-size: 35px;
+    font-size: 3em;
     font-family: 'Arimo', sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
 
-/* Columns for articles
-.row {
-    width: 1350px;
-    height: 300px;
-    background-color: #fffbed;
+/* Columns for articles */
+
+.articles {
     font-family: 'Arimo', sans-serif;
-} */
+}
 
 #article1 {
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
 }
 
 #article2 {
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
 }
 
 #blueberryheader {
     font-size: 40px;
+    font-family: 'Arimo', sans-serif;
 }
 #blueberrybody {
     font-size: 20px;
+    font-family: 'Arimo', sans-serif;
 
 }
 
 #Londonheader {
     font-size: 40px;
+    font-family: 'Arimo', sans-serif;
 }
 #Londonbody {
     font-size: 20px;
-    f
+    font-family: 'Arimo', sans-serif;
+    
 
 }
 
