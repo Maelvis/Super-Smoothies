@@ -40,6 +40,24 @@ border-width: 1px;
     color: white;
 }
 
+/* Footer */
+.footer {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #f27980;
+    background-color: #f1eff1;
+    font-size: 15px;
+    text-emphasis: bold;
+    opacity: 0.8;
+}
+
+#hashtag {
+    font-size: 30px;
+
+}
+
+/* HOME PAGE */
+
 /* Carousel with text overlay */
 
 .carousel-item {
@@ -53,7 +71,7 @@ border-width: 1px;
 
 .Websiteintro {
     font-size: 5em;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Playfair Display', serif;
     width: 100%;
     height: 100%;
 
@@ -61,7 +79,7 @@ border-width: 1px;
 
 .Websiteintrocaption {
     font-size: 3em;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Playfair Display', serif;
     width: 100%;
     height: 100%;
 }
@@ -104,16 +122,44 @@ border-width: 1px;
 
 }
 
-/* About page */
+/* link styling Home Page Articles */
+
+.articlelink:link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .articlelink:visited {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .articlelink:hover {
+    color: #f27980;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .articlelink:active {
+    color:#000000;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  
+
+/* ABOUT PAGE */
 .aboutintro {
     font-size: 4em;
     text-align: center;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Playfair Display', serif;
 
 }
 
 .h3 {
-    font-size: 40px;
+    font-size: 25px;
     font-family: 'Arimo', sans-serif;
 }
 .abouttext {
@@ -126,47 +172,18 @@ border-width: 1px;
     height: 100%;
 }
 
-/* link styling Home Page Articles */
-
-.articlelink:link {
-  color: #000000;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.articlelink:visited {
-  color: #000000;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.articlelink:hover {
-  color: #f27980;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-.articlelink:active {
-  color:#000000;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-/* Footer */
-.footer {
+/* RECIPES PAGE */
+.recipesintro{
+    font-size: 4em;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #f27980;
-    background-color: #f1eff1;
-    font-size: 15px;
-    text-emphasis: bold;
-    opacity: 0.8;
 }
 
-#hashtag {
-    font-size: 30px;
-
+.recipeimage {
+    width: 100%;
+    height: 100%;
 }
+
 
 /* Contact Form */
 .btn {
