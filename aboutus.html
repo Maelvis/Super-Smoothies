@@ -10,6 +10,8 @@
 
 <body>
 <!-- Navigation Bar -->
+<div class="container">
+  <div class="row-md-12">
 <nav> 
   <ul class="nav nav-pills nav-fill">
     <li class="nav-item">
@@ -19,7 +21,7 @@
       <a class="nav-link" href="aboutus.html">About Us</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="index.html"><img src="SmoothieHutLogoNav.png" id="logo"></a>
+      <a class="nav-link" href="index.html"><img src="SmoothieHutLogoNav.png" id="logo"></a>
     </li>
     <li class="nav-item">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,49 +36,53 @@
     <li class="nav-item">
       <a class="nav-link" href="contact.html">Contact</a>
     </li>
-  </ul>
-</nav> 
+      </ul>
+    </nav> 
+  </div>
+
 <!-- About Us -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container aboutus">
-    <h1 class="display-4">Our Mission</h1>
-    <p class="lead">Description of the website</p>
+<div class="row">
+  <div class="col-12">
+    <h1 class="aboutintro">Our Mission</h1>
   </div>
 </div>
 
 <!-- About Us Gallery -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="row">
-    <div class="col-sm samplerecipe1">
-      <img src="samplesmoothie.png">
-    </div>
-    <div class="col-sm">
-      <p class="samplerecipedescription">Health Is Wealth</p>
-    </div>
-    <div class="col-sm samplerecipe1">
-      <img src="samplesmoothie.png">
-    </div>
-    <div class="col-sm">
-      <p class="samplerecipedescription">Meet the team</p>
-    </div>
+<div class="row">
+  <div class="col-3">
+    <img class="aboutimage" src="samplesmoothie.png">
   </div>
+  <div class="col-3">
+    <h3>Health Is Wealth</h3>
+    <p class="abouttext">Health Is Wealth</p>
   </div>
+  <div class="col-3">
+    <img class="aboutimage" src="samplesmoothie.png">
+  </div>
+  <div class="col-3">
+    <h3>Meet the team</h3>
+    <p class="abouttext">Meet the team</p>
+  </div>
+</div>
+
+<br>
+<br>
+
 
 <!-- Footer -->
-<footer>
-  <div class="jumbotron jumbotron-fluid footer">
     <div class="row footer"> 
-      <div class="col-sm">
+      <div class="col-6">
+        <footer>
         <p>This website was created by Shida and Maria-Eleni for CodeFirstGirls</p>
         <a href="contact.html"><p>Contact Us</p></a>
       </div>
-      <div class="col-sm">
+      <div class="col-6">
         <p id="hashtag">#healthiswealth</p>
       </div>
+    </footer>
     </div>
-  </div>
-</footer>
 
+</div>
 
 
 

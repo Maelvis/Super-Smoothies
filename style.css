@@ -53,6 +53,7 @@ border-width: 1px;
 
 .Websiteintro {
     font-size: 5em;
+    font-family: 'Arimo', sans-serif;
     width: 100%;
     height: 100%;
 
@@ -66,7 +67,7 @@ border-width: 1px;
 }
 
 
-/* Columns for articles */
+/* Home page articles */
 
 .articles {
     font-family: 'Arimo', sans-serif;
@@ -103,7 +104,29 @@ border-width: 1px;
 
 }
 
-/* link styling in columns */
+/* About page */
+.aboutintro {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+.h3 {
+    font-size: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+.abouttext {
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.aboutimage {
+    width: 100%;
+    height: 100%;
+}
+
+/* link styling Home Page Articles */
 
 .articlelink:link {
   color: #000000;
@@ -133,7 +156,6 @@ border-width: 1px;
 .footer {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    /* changed the font colour and background colour */
     color: #f27980;
     background-color: #f1eff1;
     font-size: 15px;
@@ -169,6 +191,7 @@ border-width: 1px;
     width: 100%;
     height: 100%;
 }
+
 
 
 
