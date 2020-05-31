@@ -186,6 +186,12 @@ border-width: 1px;
 
 
 /* Contact Form */
+.contactintro{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
 .btn {
     font-family: 'Playfair Display', serif;
     border: 2px solid;
