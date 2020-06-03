@@ -152,13 +152,6 @@ border-width: 1px;
 
 /* ABOUT PAGE */
 
-/* .aboutintro {
-    font-size: 4em;
-    text-align: center;
-    font-family: 'Playfair Display', serif; */
-
-}
-
 .h3 {
     font-size: 25px;
     font-family: 'Arimo', sans-serif;
@@ -169,8 +162,8 @@ border-width: 1px;
 }
 
 .aboutimage {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
 }
 
 /* about page banner */
