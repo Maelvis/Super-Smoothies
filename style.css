@@ -151,10 +151,11 @@ border-width: 1px;
   
 
 /* ABOUT PAGE */
-.aboutintro {
+
+/* .aboutintro {
     font-size: 4em;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif; */
 
 }
 
@@ -171,6 +172,26 @@ border-width: 1px;
     width: 100%;
     height: 100%;
 }
+
+/* about page banner */
+
+#containerbanner {
+    position: relative;
+    text-align: center;
+
+  }
+  
+  #centeredbannertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    text-align: center;
+    color: white; 
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px #000000;
+  }
 
 /* RECIPES PAGE */
 .recipesintro{
