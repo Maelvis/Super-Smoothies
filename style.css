@@ -1,6 +1,6 @@
 
 .container {
-    background-color: #fffbed;
+    background-color: #faeec2;
     width: 100%;
     padding-left: 0%;
     padding-right: 0%;
@@ -8,6 +8,8 @@
 
 .row {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Navigation bar styling */
@@ -203,6 +205,11 @@ border-width: 1px;
   }
 
 /* RECIPES PAGE */
+h2 {
+    color: #f27980;
+    text-shadow: 1px 1px #252222;
+}
+
 .recipesintro{
     font-size: 4em;
     text-align: center;
@@ -212,6 +219,11 @@ border-width: 1px;
 .recipeimage {
     width: 100%;
     height: 100%;
+}
+
+.recipetext {
+    font-family: 'Arimo', sans-serif;
+
 }
 
 
