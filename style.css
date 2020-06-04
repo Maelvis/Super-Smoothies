@@ -1,6 +1,13 @@
 
 .container {
     background-color: #fffbed;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.row {
+    width: 100%;
 }
 
 /* Navigation bar styling */
@@ -8,6 +15,8 @@ nav {
     background-color: #F27980;
     color: white;
     padding: 0.5px;
+    width: 100%;
+    align-items: center;
 }
 
 .nav-link {
@@ -44,11 +53,18 @@ border-width: 1px;
 .footer {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #f27980;
-    background-color: #f1eff1;
+    background-color: #f27980;
+    color: #f1eff1;
     font-size: 15px;
     text-emphasis: bold;
-    opacity: 0.8;
+    opacity: 0.9;
+    width: 100%;
+    padding: 0%;
+}
+
+.footercol {
+    padding: 0%;
+    width: 100%
 }
 
 #hashtag {
